@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TechRehab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create three unequal columns that floats next to each other */
+   .column {
+      float: right;
+      padding: 50px;
+      height: 300px;
+      /* Should be removed. Only for demonstration */
+    }
+
+    .left {
+      width: 25%;
+    }
+
+    .right {
+      width: 25%;
+    }
+
+    .middle {
+      width: 50%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="nav-brand">
+
+    <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+          <ul class="nav navbar-nav">
+            <a href='index.html'>
+           <img id="logo-img" src="assets/techrehab logo.png" height="125px">
+          </a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="advice.html">Advice</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services and pricing.html">Services and Pricing</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    
+    <div class="row">
+      <div class="column left">
+        <img src="assets/left.PNG">
+      </div>
+      <div class="column middle">
+    <h1>Advice</h1>
+    <p>When you come to us for your repair we can assure you that you've chosen the right company to trust with your device. We will carry out our diagnosis of any device if your unsure of the issue and will be honest to what needs to be repaired more so we will be more than happy to show you what needs to be fixed we will give you our price and it's entirely up to you of you want us to repair for you. We like to look after our customers at the TechRehab and will do what we can to help you all out.</p>
+
+    <p></p>
+
+        <br>
+        <a href="index.html"> Back to homepage</a>
+</div>
+      <div class="column right">
+        <img src="assets/right.PNG">
+      </div>
+    </div>
+    
+</body>
+
+</html>
